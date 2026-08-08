@@ -1,4 +1,4 @@
-package LojadeCarros;
+package MidnightGarage;
 
 public interface Observador {
 

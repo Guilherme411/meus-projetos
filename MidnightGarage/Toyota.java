@@ -1,4 +1,4 @@
-package LojadeCarros;
+package MidnightGarage;
 
 import java.util.Scanner;
 

@@ -1,8 +1,8 @@
-package LojadeCarros;
+package MidnightGarage;
 
 import java.util.Scanner;
 
-public class Disponiveis {
+public class Marcas {
 
 
     public void iniciar() {

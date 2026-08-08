@@ -1,4 +1,4 @@
-package LojadeCarros;
+package MidnightGarage;
 
 public class Cliente implements Observador {
 
