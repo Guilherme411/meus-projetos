@@ -1,0 +1,45 @@
+/* =====================================================
+   IMPORTAÇÃO DOS ESTILOS
+===================================================== */
+
+@import url("Header.css");
+@import url("Footer.css");
+@import url("Buttons.css");
+@import url("Cards.css");
+@import url("Forms.css");
+
+@import url("Pages/Home.css");
+@import url("Pages/Loja.css");
+@import url("Pages/Marcas.css");
+@import url("Pages/Carros.css");
+
+
+/* =====================================================
+   RESET
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* =====================================================
+   BODY
+===================================================== */
+
+body{
+
+    min-height:100vh;
+
+    background: linear-gradient(
+        135deg,
+        #050505,
+        #202020
+    );
+
+    color:white;
+
+}

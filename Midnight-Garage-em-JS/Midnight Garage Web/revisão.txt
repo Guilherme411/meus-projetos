@@ -1,0 +1,13 @@
+A ordem que eu seguiria
+
+Vamos revisar um arquivo por vez:
+
+✅ index.html (feito)
+✅ loja.html (feito, porem vou revisar dnv dps)
+✅ marcas.html (é, foi feito)
+✅ honda.html (feito)
+✅ toyota.html (feito)
+✅ nissan.html (feito)
+✅ mitsubishi.html (feito)
+✅ chevrolet.html (feito)
+✅ volkswagen.html (feito)

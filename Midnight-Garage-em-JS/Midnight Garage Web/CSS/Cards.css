@@ -1,0 +1,172 @@
+/* =====================================================
+   CARDS
+   ===================================================== */
+
+
+/* ==========================
+   CARD PADRÃO
+========================== */
+
+.card{
+
+    background:
+        rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.3s;
+
+    border:1px solid rgba(255,255,255,.12);
+
+}
+
+.card-menu{
+
+    min-height:280px;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+        0 0 25px rgba(255,0,0,.45);
+
+}
+
+
+/* ==========================
+   TÍTULOS
+========================== */
+
+.card h2{
+
+    color:#ff3030;
+
+    margin-bottom:20px;
+
+}
+
+
+.card h3{
+
+    color:#ff3030;
+
+    margin-bottom:15px;
+
+}
+
+
+.card p{
+
+    color:#ddd;
+
+}
+
+
+/* ==========================
+   CARD DE CARRO
+========================== */
+
+.card-carro{
+
+    background:
+        rgba(255,255,255,.10);
+
+    border-radius:15px;
+
+    padding:20px;
+
+    margin:15px 0;
+
+    border:1px solid rgba(255,255,255,.18);
+
+    transition:.3s;
+
+}
+
+
+.card-carro:hover{
+
+    border-color:#ff3030;
+
+    box-shadow:
+        0 0 20px rgba(255,0,0,.35);
+
+}
+
+
+.card-carro h3{
+
+    color:#ff3030;
+
+    margin-bottom:15px;
+
+}
+
+
+/* ==========================
+   CARD DE COMPRADOR
+========================== */
+
+.card-comprador{
+
+    background:
+        rgba(255,255,255,.10);
+
+    border-radius:15px;
+
+    padding:20px;
+
+    margin:15px 0;
+
+    border:1px solid rgba(255,255,255,.18);
+
+}
+
+
+.card-comprador h3{
+
+    color:#ff3030;
+
+    margin-bottom:15px;
+
+}
+
+
+/* ==========================
+   GRID DE CARDS
+========================== */
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+}
+
+
+/* ==========================
+   IMAGENS DOS CARROS
+========================== */
+
+.card-carro img{
+
+    width:100%;
+
+    max-height:180px;
+
+    object-fit:contain;
+
+    margin-bottom:20px;
+
+}

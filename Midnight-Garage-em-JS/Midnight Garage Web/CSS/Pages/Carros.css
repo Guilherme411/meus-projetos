@@ -1,0 +1,154 @@
+/* =====================================================
+   CARROS
+   ===================================================== */
+
+
+/* ==========================
+   TÍTULO DA PÁGINA
+========================== */
+
+.titulo-carros{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+.titulo-carros h2{
+
+    font-size:40px;
+
+    color:#ff3030;
+
+}
+
+.titulo-carros p{
+
+    margin-top:10px;
+
+    color:#bbb;
+
+}
+
+
+/* ==========================
+   GRID DOS CARROS
+========================== */
+
+.grid-carros{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+
+/* ==========================
+   CARD DO CARRO
+========================== */
+
+.card-carro{
+
+    background:
+        rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.3s;
+
+}
+
+
+.card-carro:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#ff3030;
+
+    box-shadow:
+        0 0 20px rgba(255,0,0,.4);
+
+}
+
+
+/* ==========================
+   IMAGEM
+========================== */
+
+.card-carro img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+
+/* ==========================
+   INFORMAÇÕES
+========================== */
+
+.info-carro{
+
+    padding:25px;
+
+}
+
+
+.info-carro h3{
+
+    color:#ff3030;
+
+    margin-bottom:15px;
+
+}
+
+
+.info-carro p{
+
+    margin:8px 0;
+
+    color:#ddd;
+
+}
+
+
+/* ==========================
+   PREÇO
+========================== */
+
+.preco{
+
+    margin-top:15px;
+
+    font-size:24px;
+
+    color:#00ff88;
+
+    font-weight:bold;
+
+}
+
+
+/* ==========================
+   BOTÃO
+========================== */
+
+.info-carro button{
+
+    margin-top:20px;
+
+    width:100%;
+
+}

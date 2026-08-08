@@ -1,0 +1,92 @@
+/* =====================================================
+   LOJA
+   ===================================================== */
+
+
+/* ==========================
+   TOPO DA LOJA
+========================== */
+
+.topo{
+
+    text-align:center;
+
+    padding:50px 20px;
+
+}
+
+
+.topo h1{
+
+    font-size:50px;
+
+    color:#ff2020;
+
+    text-shadow:
+        0 0 15px red;
+
+}
+
+
+.topo p{
+
+    margin-top:10px;
+
+    font-size:20px;
+
+    color:#ccc;
+
+}
+
+
+/* ==========================
+   MENU PRINCIPAL
+========================== */
+
+.menu-loja{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:50px auto;
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+
+/* ==========================
+   TÍTULO DA PÁGINA
+========================== */
+
+.titulo-loja{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+
+.titulo-loja h2{
+
+    font-size:35px;
+
+    color:#ff3030;
+
+}
+
+
+.titulo-loja p{
+
+    margin-top:10px;
+
+    color:#bbb;
+
+}

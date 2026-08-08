@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Comprador</title>
+
+<link rel="stylesheet" href="../CSS/Style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>Ficha de Compra</h1>
+
+
+
+<form id="formComprador">
+
+
+<label>Nome completo:</label>
+
+<input type="text" id="nome">
+
+
+<label>CPF:</label>
+
+<input type="text" id="cpf">
+
+
+<label>Data de nascimento:</label>
+
+<input type="text" id="dataNascimento">
+
+
+<label>Método de pagamento:</label>
+
+<input type="text" id="metodoPagamento">
+
+
+
+<button type="submit">
+Finalizar Compra
+</button>
+
+
+</form>
+
+
+
+<div id="resultado"></div>
+
+
+
+<button onclick="voltar()">
+Voltar ao Menu
+</button>
+
+
+
+<button onclick="sair()">
+Sair
+</button>
+
+
+</div>
+
+
+
+<script src="../JS/comprador.js"></script>
+
+
+
+<script>
+
+
+function voltar(){
+
+window.location.href="loja.html";
+
+}
+
+
+
+function sair(){
+
+alert("Obrigado pela preferência!");
+
+window.location.href="loja.html";
+
+}
+
+
+</script>
+
+
+
+</body>
+
+</html>

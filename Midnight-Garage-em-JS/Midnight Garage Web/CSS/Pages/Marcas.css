@@ -1,0 +1,157 @@
+/* =====================================================
+   MARCAS
+   ===================================================== */
+
+
+/* ==========================
+   TÍTULO DA PÁGINA
+========================== */
+
+.titulo-marcas{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+.titulo-marcas h2{
+
+    font-size:40px;
+
+    color:#ff3030;
+
+}
+
+.titulo-marcas p{
+
+    margin-top:10px;
+
+    color:#bbb;
+
+}
+
+
+/* ==========================
+   GRID DAS MARCAS
+========================== */
+
+.grid-marcas{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(250px,1fr));
+
+    gap:30px;
+
+}
+
+
+/* ==========================
+   CARD DA MARCA
+========================== */
+
+.card-marca{
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    border-radius:20px;
+
+    padding:25px;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+.card-marca:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#ff3030;
+
+    box-shadow:
+        0 0 20px rgba(255,0,0,.45);
+
+}
+
+
+/* ==========================
+   LOGO
+========================== */
+
+.card-marca img{
+
+    width:120px;
+
+    height:120px;
+
+    object-fit:contain;
+
+    margin-bottom:20px;
+
+}
+
+
+/* ==========================
+   NOME
+========================== */
+
+.card-marca h3{
+
+    color:#ff3030;
+
+    margin-bottom:10px;
+
+    font-size:22px;
+
+}
+
+
+/* ==========================
+   DESCRIÇÃO
+========================== */
+
+.card-marca p{
+
+    color:#bbb;
+
+    font-size:15px;
+
+}
+
+
+/* ==========================
+   QUANTIDADE DE VEÍCULOS
+========================== */
+
+.quantidade{
+
+    margin-top:15px;
+
+    color:#ff4040;
+
+    font-weight:bold;
+
+}
+
+
+/* ==========================
+   ÁREA DO BOTÃO VOLTAR
+========================== */
+
+.area-voltar{
+
+    text-align:center;
+
+    margin-top:50px;
+
+}

@@ -1,0 +1,113 @@
+/* =====================================================
+   HEADER
+   ===================================================== */
+
+/* ==========================
+   CABEÇALHO
+========================== */
+
+.cabecalho{
+
+    width:100%;
+
+    padding:20px 60px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:#080808;
+
+    border-bottom:1px solid #333;
+
+}
+
+
+/* ==========================
+   LOGO
+========================== */
+
+.logo a {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    color: inherit;
+
+    text-decoration: none;
+
+}
+
+
+.logo img {
+
+    width: 65px;
+
+    height: 65px;
+
+    object-fit: contain;
+
+}
+
+
+.logo h1 {
+
+    color: #ff2020;
+
+    font-size: 35px;
+
+    text-shadow:
+        0 0 12px rgba(255, 0, 0, 0.4);
+
+}
+
+.logo h1{
+
+    color:#ff2020;
+
+    font-size:35px;
+
+    text-shadow:
+        0 0 12px rgba(255,0,0,.4);
+
+}
+
+
+/* ==========================
+   MENU DE NAVEGAÇÃO
+========================== */
+
+nav{
+
+    display:flex;
+
+    gap:30px;
+
+    align-items:center;
+
+}
+
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+
+nav a:hover{
+
+    color:#ff3030;
+
+}

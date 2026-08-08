@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Midnight Garage</title>
+
+    <link rel="stylesheet" href="CSS/Style.css">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="logo">
+
+            <a href="index.html">
+
+                <img
+                    src="Assets/Logos/md garage.png"
+                    alt="Logotipo Midnight Garage"
+                >
+
+                <h1>Midnight Garage</h1>
+
+            </a>
+
+        </div>
+
+        <nav>
+
+            <a href="index.html">Início</a>
+
+            <a href="HTML/loja.html">Loja</a>
+
+        </nav>
+
+    </header>
+
+    <section class="carrossel" aria-label="Veículos em destaque">
+
+        <div class="slides">
+
+            <div class="slide ativo">
+
+                <img
+                    src="Assets\Logos\Carros\skyline-r34.jpg"
+                    alt="Nissan Skyline GT-R R34"
+                >
+
+                <div class="conteudo-slide">
+
+                    <span>Veículo em destaque</span>
+
+                    <h2>Nissan Skyline GT-R R34</h2>
+
+                    <p>
+                        Um dos esportivos japoneses mais icônicos disponíveis
+                        no catálogo da Midnight Garage.
+                    </p>
+
+                    <a href="HTML/Nissan.html" class="btn">
+                        Ver veículo
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="slide">
+
+                <img
+                    src="Assets\Logos\Carros\Toyota Supra.jpg"
+                    alt="Toyota Supra"
+                >
+
+                <div class="conteudo-slide">
+
+                    <span>Performance japonesa</span>
+
+                    <h2>Toyota Supra</h2>
+
+                    <p>
+                        Potência, design marcante e uma história inesquecível
+                        no mundo automotivo.
+                    </p>
+
+                    <a href="HTML/Toyota.html" class="btn">
+                        Ver veículo
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="slide">
+
+                <img
+                    src="Assets/carros/mitsubishi/lancer-evolution-x.png"
+                    alt="Mitsubishi Lancer Evolution X"
+                >
+
+                <div class="conteudo-slide">
+
+                    <span>Lenda dos ralis</span>
+
+                    <h2>Mitsubishi Lancer Evolution X</h2>
+
+                    <p>
+                        Desempenho, tração e esportividade reunidos em um dos
+                        maiores ícones da Mitsubishi.
+                    </p>
+
+                    <a href="HTML/Mitsubishi.html" class="btn">
+                        Ver veículo
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <button
+            class="controle-carrossel anterior"
+            type="button"
+            aria-label="Veículo anterior"
+            onclick="mudarSlide(-1)"
+        >
+            &#10094;
+        </button>
+
+        <button
+            class="controle-carrossel proximo"
+            type="button"
+            aria-label="Próximo veículo"
+            onclick="mudarSlide(1)"
+        >
+            &#10095;
+        </button>
+
+        <div class="indicadores">
+
+            <button
+                class="indicador ativo"
+                type="button"
+                aria-label="Mostrar primeiro veículo"
+                onclick="mostrarSlide(0)"
+            ></button>
+
+            <button
+                class="indicador"
+                type="button"
+                aria-label="Mostrar segundo veículo"
+                onclick="mostrarSlide(1)"
+            ></button>
+
+            <button
+                class="indicador"
+                type="button"
+                aria-label="Mostrar terceiro veículo"
+                onclick="mostrarSlide(2)"
+            ></button>
+
+        </div>
+
+    </section>
+
+    <footer class="rodape">
+
+        <p>© 2026 Midnight Garage</p>
+
+        <p>Desenvolvido por Guilherme</p>
+
+    </footer>
+
+    <script src="JS/Carrossel.js"></script>
+</body>
+
+</html>
