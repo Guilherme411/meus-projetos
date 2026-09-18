@@ -1,0 +1,55 @@
+package com.tsfy;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Tsfy iniciado!");
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Cole a URL: ");
+        String url = scanner.nextLine();
+
+        try {
+
+           ProcessBuilder processo = new ProcessBuilder(
+                 "ferramentas/yt-dlp.exe",
+                "-f",
+                "bestaudio",
+                "-x",
+                "--audio-format",
+                "mp3",
+                "-o",
+                "downloads/%(title)s.%(ext)s",
+                url
+            );
+            Process executar = processo.start();
+
+            BufferedReader leitor = new BufferedReader(
+                new InputStreamReader(executar.getInputStream())
+            );
+
+            String linha;
+
+            while ((linha = leitor.readLine()) != null) {
+                System.out.println(linha);
+            }
+
+            executar.waitFor();
+
+            System.out.println("Comando finalizado!");
+
+        } catch (Exception e) {
+
+            System.out.println("Erro ao executar o comando.");
+            e.printStackTrace();
+
+        }
+
+        scanner.close();
+    }
+}
