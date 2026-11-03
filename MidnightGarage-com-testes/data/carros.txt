@@ -1,0 +1,66 @@
+1	Honda	Civic	Prata	150000.0	2024	false
+2	Honda	NSX	Vermelho	800000.0	2024	false
+3	Honda	City	Branco	120000.0	2024	false
+4	Honda	HR-V	Cinza	165000.0	2024	false
+5	Honda	WR-V	Azul	135000.0	2024	false
+6	Honda	Fit	Preto	95000.0	2024	false
+7	Honda	Accord	Preto	320000.0	2024	false
+8	Honda	CR-V	Branco Pérola	280000.0	2024	false
+9	Honda	Pilot	Cinza Grafite	410000.0	2024	false
+10	Honda	ZR-V	Azul Metálico	215000.0	2024	false
+11	Honda	Civic Type R	Championship White	430000.0	2024	false
+12	Toyota	Corolla	Prata	165000.0	2024	false
+13	Toyota	Supra	Amarelo	620000.0	2024	false
+14	Toyota	Hilux	Branco	310000.0	2024	false
+15	Toyota	SW4	Preto	430000.0	2024	false
+16	Toyota	Yaris	Vermelho	118000.0	2024	false
+17	Toyota	Corolla Cross	Cinza	205000.0	2024	false
+18	Toyota	Camry	Branco Pérola	360000.0	2024	false
+19	Toyota	RAV4	Azul	405000.0	2024	false
+20	Toyota	Etios	Prata	85000.0	2024	false
+21	Toyota	GR86	Laranja	320000.0	2024	false
+22	Toyota	Land Cruiser	Preto	720000.0	2024	false
+23	Chevrolet	Onix	Branco	95000.0	2024	false
+24	Chevrolet	Camaro	Amarelo	540000.0	2024	false
+25	Chevrolet	Cruze	Preto	145000.0	2024	false
+26	Chevrolet	Tracker	Cinza	175000.0	2024	false
+27	Chevrolet	S10	Branco	295000.0	2024	false
+28	Chevrolet	Montana	Vermelho	145000.0	2024	false
+29	Chevrolet	Spin	Prata	135000.0	2024	false
+30	Chevrolet	Equinox	Azul	275000.0	2024	false
+31	Chevrolet	Blazer	Preto	395000.0	2024	false
+32	Chevrolet	Cobalt	Cinza	82000.0	2024	false
+33	Chevrolet	Astra	Prata	68000.0	2024	false
+34	Nissan	Versa	Branco	118000.0	2024	false
+35	Nissan	Sentra	Cinza	178000.0	2024	false
+36	Nissan	Kicks	Vermelho	165000.0	2024	false
+37	Nissan	Frontier	Preto	315000.0	2024	false
+38	Nissan	GT-R R35	Cinza	1200000.0	2024	false
+39	Nissan	350Z	Laranja	240000.0	2024	false
+40	Nissan	370Z	Branco	310000.0	2024	false
+41	Nissan	Skyline GT-R R34	Azul Bayside	2000000.0	2024	false
+42	Nissan	X-Trail	Prata	210000.0	2024	false
+43	Nissan	March	Vermelho	72000.0	2024	false
+44	Nissan	Altima	Preto	220000.0	2024	false
+45	Mitsubishi	Lancer	Prata	95000.0	2024	false
+46	Mitsubishi	Lancer Evolution X	Branco	420000.0	2024	false
+47	Mitsubishi	Eclipse Cross	Cinza	230000.0	2024	false
+48	Mitsubishi	Pajero Sport	Preto	395000.0	2024	false
+49	Mitsubishi	Triton	Branco	310000.0	2024	false
+50	Mitsubishi	ASX	Vermelho	155000.0	2024	false
+51	Mitsubishi	Outlander	Azul	250000.0	2024	false
+52	Mitsubishi	Pajero Full	Cinza	320000.0	2024	false
+53	Mitsubishi	Airtrek	Prata	220000.0	2024	false
+54	Mitsubishi	Eclipse GSX	Preto	260000.0	2024	false
+55	Mitsubishi	3000GT	Vermelho	380000.0	2024	false
+56	Volkswagen	Gol	Branco	82000.0	2024	false
+57	Volkswagen	Polo	Prata	110000.0	2024	false
+58	Volkswagen	Jetta	Preto	235000.0	2024	false
+59	Volkswagen	Golf GTI	Vermelho	340000.0	2024	false
+60	Volkswagen	Saveiro	Branco	120000.0	2024	false
+61	Volkswagen	Amarok	Cinza	325000.0	2024	false
+62	Volkswagen	Virtus	Azul	125000.0	2024	false
+63	Volkswagen	Nivus	Cinza	155000.0	2024	false
+64	Volkswagen	T-Cross	Preto	175000.0	2024	false
+65	Volkswagen	Passat	Prata	185000.0	2024	false
+66	Volkswagen	Fusca	Azul	70000.0	2024	false
